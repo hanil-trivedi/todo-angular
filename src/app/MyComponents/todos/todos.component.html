@@ -1,3 +1,5 @@
+<div class="container">
+    <h1 class="text-center mb-3">Todo List by Hanil</h1>
 <app-add-todo (todoAdd)="addTodo($event)"></app-add-todo>
 <h4>Your Todos</h4>
 <div *ngIf="this.todos.length===0 else elseBlock">No Todos to Display</div>
@@ -8,3 +10,4 @@
 
     </div>
 </ng-template>
+</div>
